@@ -8,7 +8,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 @Entity
-@Table(name = "todos")
+@Table(name = "Todos")
 public class Todos extends Auditable{
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
