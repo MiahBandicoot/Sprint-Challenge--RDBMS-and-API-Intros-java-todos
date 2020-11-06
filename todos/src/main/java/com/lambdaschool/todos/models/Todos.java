@@ -30,6 +30,9 @@ public class Todos extends Auditable{
         this.users = users;
     }
 
+    public Todos() {
+    }
+
     public long getTodoid() {
         return todoid;
     }

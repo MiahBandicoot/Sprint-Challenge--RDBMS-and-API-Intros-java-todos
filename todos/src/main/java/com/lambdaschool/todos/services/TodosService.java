@@ -6,4 +6,5 @@ import org.springframework.data.repository.CrudRepository;
 public interface TodosService extends CrudRepository<Todos, Long>
 {
     void markComplete(long todoid);
+    Todos findTodosById(long id);
 }

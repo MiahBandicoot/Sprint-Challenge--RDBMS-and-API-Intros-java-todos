@@ -50,11 +50,11 @@ public class User extends Auditable
     private List<Todos> todos = new ArrayList<>();
 
 
-    @Id
-    @OneToMany
-    @JoinColumn(name = "todoid")
-    @JsonIgnoreProperties(value = "user", allowSetters = true)
-    private User users;
+//    @Id
+//    @OneToMany
+//    @JoinColumn(name = "todoid")
+//    @JsonIgnoreProperties(value = "user", allowSetters = true)
+//    private User users;
     /**
      * Default constructor used primarily by the JPA.
      */
